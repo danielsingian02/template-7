@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500;600;700&display=swap');
+
+
+/* Hero */
+
+.about__container {
+    padding: 2em 0;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: white;
+}
+
+.about__subhead {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.about__subdesc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+}
+
+.events {
+    padding: 2em 0;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: white;
+}
+
+.card__title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.card__desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color:white
+}
+
+.closing-rem {
+    padding: 2em 0;
+}
+
+.closing__head {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+}
+
+.closing__description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+}
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR TABLET  (1024px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 1024px) {
+    .side-navbar {
+        padding: 2em 1em;
+    }
+}
+
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR TABLET  (768px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 768px) {
+    .side-navbar {
+        padding: 2em 1em;
+    }
+}
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR MOBILE  (425px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 425px) {
+
+}
+

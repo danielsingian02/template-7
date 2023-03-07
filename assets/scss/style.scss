@@ -1,0 +1,112 @@
+@import "home";
+@import "about";
+@import "variables";
+@import "header";
+@import "footer";
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500&display=swap');
+
+
+/* ====================================================================================================================== */
+/*                                                    CLASSES                                                             */
+/* ====================================================================================================================== */
+
+.container {
+    padding: 2em 0;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: white;
+}
+
+.ln-sm {
+    border: .5px solid white;
+    background-color: white;
+    opacity: 1;
+    width: 15%;
+}
+
+.post, .page {
+    margin: 0px !important;
+}
+
+// flex displays 
+
+.flex{
+    display: flex;
+}
+
+.center-items {
+    display: flex;
+    justify-content: center;
+}
+
+.col-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-center-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-display-start {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.display-start-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.events-list-wrap {
+    width: 20%;
+}
+
+// section margin for desktop //
+
+.col-sec {
+    padding:7em;
+}
+
+.row-wrap {
+    width:50%
+}
+
+.pd-sm {
+    padding: 2em;
+}
+
+.row-wrap-xsm {
+    width: 20%;
+}
+
+.row-wrap-xl {
+    width: 100%;
+}
+
+.row-wrap-l {
+    width: 60%;
+}
+
+
+// ----------------------- MOBILE RESPONSIVE ---------------------------//
+
+.mb-txt-cr {
+    text-align: center;
+}
+
+.row-wrap-mb {
+    width: 100%;
+}
+
+.mb {
+    display: none;
+}

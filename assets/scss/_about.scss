@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+.site-container {
+    background-image: url(assets/images/bodybg.png);
+    background-size: 100% auto;
+    padding-right: 7em ;
+    background-repeat: repeat;
+}
+
+.side-navbar {
+    padding: 2em 3em;
+    @media only screen and (max-width: 1024px) {
+        padding: 2em 1em;
+    }    
+}
+
+/* About Banner */
+.about__head {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.about__desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+}
+
+.hero__about-img {
+    width: 100%;
+}
+/* end of About Banner */
+
+/* Team */
+.team__head {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+}
+
+.team__desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: white;
+}
+
+.card__img {
+    width: 350px;
+    height: 220px;
+}
+
+.card-wrap {
+    width: 30%;
+}
+
+.card-container.flex {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* end of Team*/
+
+/* Testimonial */
+.quotes__desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color:white;
+}
+
+.quotes__desc--l {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color:white;
+}
+
+.quotes__name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color:white;
+    margin: 0px;
+}
+
+.quotes__icon-rt {
+    float: right;
+}
+
+.row-wrap.col-center-items {
+    padding: 2em;
+}
+
+.testimonial__img {
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+}
+/* end of Testimonial */
+
+/* Closing */
+.closing {
+    margin-top: 20px;
+}
+.closing__desc {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #292929;
+}
+
+.closing__contents {
+    background-color: white;
+    padding: 4em 2em;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.closing {
+    background-image: url(assets/images/closingbg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+section#footer {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    width: 20%;
+    padding: 0 20px;
+}
+
+.footer__credits {
+    color: white;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.closing.flex {
+    margin-bottom: 5em;
+}
+/* end of Closing */
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR TABLET  (768px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 768px) {
+    .side-navbar.row-wrap-xsm {
+        width: 5%;
+        padding: 0em;
+    }
+    
+    .site-container {
+        padding: 2em;
+    }
+
+    .body-container.row-wrap-l {
+        width: 90%;
+    }
+
+    #footer {
+        display: none !important;
+    }
+
+    /* Testimonial */
+
+    .testimonial__img {
+        height: 100%;
+    }
+
+    .quotes__desc {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    /* end of Testimonial */
+
+    /* Closing */
+    .closing {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .closing .row-wrap {
+        width: 100%;
+    }
+
+    .closing__contents {
+        width: 100%;
+    }
+
+    p.footer__credits.mb {
+        display: block;
+    } 
+
+    /* end of closing */ 
+    
+}
+
+// --------------------------------------------------------------------------------------------------------//
+//                                          SCREEN SIZE FOR MOBILE  (425px)                                //
+// --------------------------------------------------------------------------------------------------------//
+
+@media only screen and (max-width: 425px) {
+    .card-wrap {
+        width: 100%;
+    }  
+
+    .card-container.flex {
+        flex-direction: column;
+    }
+    .quotes  {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .quotes .row-wrap.pd-sm {
+        width: 100%;
+    }
+
+    .quotes .row-wrap.center-items {
+        width: 100%;
+    }
+
+    .closing__desc {
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
+
